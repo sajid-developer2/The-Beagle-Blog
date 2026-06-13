@@ -1,2 +1,2 @@
 # The-Beagle-Blog
-The Beagle Blog Decription
+The Beagle Blog is Very Interesting Project
