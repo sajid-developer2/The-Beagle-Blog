@@ -1,0 +1,92 @@
+/* background image according to Figma */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+/* main high card layout */
+.main-container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 550px;
+    padding: 35px;
+    box-shadow: 0px 8px 24px rgba(0,0,0,0.2);
+    border-radius: 4px;
+}
+
+/* section of black box */
+.top-section {
+    border: 1px solid #000000;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+/* headling style (bold & online) */
+h1, h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 12px;
+    display: inline-block;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 2px;
+}
+
+/* paragraph text */
+p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #111111;
+    text-align: left;
+}
+
+/* beagle word italic */
+.bold-italic {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* (Links) */
+.link-text {
+    display: inline-block;
+    font-size: 13px;
+    color: #000000;
+    text-decoration: underline;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+.link-text:hover {
+    color: #555555;
+}
+
+/* image section */
+.image-section {
+    margin-bottom: 25px;
+}
+
+.dog-image {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* (Ordered List)  */
+.trivia-section ol {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.trivia-section li {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #111111;
+}
